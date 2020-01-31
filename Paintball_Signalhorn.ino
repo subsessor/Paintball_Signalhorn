@@ -1,5 +1,5 @@
 #define second 1000 //ms
-#define countdowns 10 //times
+#define countdowns 9 //times honk before starting honk occures
 #define countdownhonk_duration 50 //ms
 #define playstarthonk_duration 400 //ms
 #define checktime 100 //ms - aprox. time to check, if a button was pressed in the past
