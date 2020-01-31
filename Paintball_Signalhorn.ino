@@ -52,7 +52,7 @@ void pulsedHonk(int ontime, int fulltime) {
 }
 
 void countdown() {
-  for (int i = 1; i <= 10; i++) {
+  for (int i = 1; i <= countdowns; i++) {
     honkFor(countdownhonk_duration);
     for (int t = second - countdownhonk_duration ; t > 0 ; t -= checktime) {
       delay(min(t,checktime));
